@@ -1,15 +1,16 @@
 /* ---CUSTOM PROPERTIES--- */
 :root {
-  --first-color: #01b113;
-  --first-alpha-color: rgba(1, 177, 19, 0.75);
-  --second-color: #14192d;
-  --second-alpha-color: rgba(20, 25, 45, 0.75);
+  --first-color: #101935;
+  --first-alpha-color: rgba(16, 25, 53, 0.75);
+  --second-color: #F2FDFF;
+  --second-alpha-color: rgba(242, 253, 255, 0.75);
   --third-color: #797596;
   --third-alpha-color: rgba(121, 117, 150, 0.75);
   --white-color: #ffffff;
   --gray-light-color: #f3f3f3;
   --gray-color: #cccccc;
   --gray-dark-color: #666666;
+  --color-hover: #e71d36;
   --black-color: #000000;
   --link-color: #50e3c0;
   --title-color: #333333;
@@ -291,12 +292,11 @@ p {
 }
 
 .menu a:hover {
-  color: var(--white-color);
-  background-color: var(--first-color);
+  color: var(--color-hover);
 }
 
 .menu-btn {
-  outline: thin solid --first-color;
+  outline: thin solid var(--first-color);
   border: 0;
   cursor: pointer;
   background-color: var(--second-color);
