@@ -376,7 +376,6 @@ p {
 
 .modal-content {
   position: relative;
-
 }
 
 .modal-close {
@@ -627,8 +626,9 @@ progress::-moz-progress-bar {
 
 .portfolio-details {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: repeat(autofill, minmax(20%, 80%));
   grid-auto-rows: 2rem;
+  
 }
 
 .portfolio-details b {
@@ -682,6 +682,7 @@ progress::-moz-progress-bar {
   }
 
   .portfolio-info {
+    padding: auto;
     margin-left: 1rem;
     align-self: center;
   }
